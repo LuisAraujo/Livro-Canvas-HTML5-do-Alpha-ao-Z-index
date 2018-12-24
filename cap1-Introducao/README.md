@@ -24,7 +24,15 @@ O Canvas chegou ao mundo web através da nova versão da linguagem de marcação
 
 Diferentemente do que vimos durante anos, na escola. O plano cartesiano do Canvas tem sua origem (O) no canto superior esquerdo da tela. Avançando positivamente (0,1,2 ...) da esquerda para a direita no eixo x e de cima para baixo no eixo y.  Conforme podemos ver na figura abaixo:
 
+![Plano Cartesiano do Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/fig1-plano-catersizano.svg)
+
+Figura 1 - Plano cartesiano no Canvas
+
 Ou seja, pontos com x e y negativos não são exibidos na tela (a não ser que realizemos uma operação de translação. No entanto, neste livro, veremos alguns elementos como x e y negativos, isso porque, embora não seja possível printá-los na tela, necessitamos, por exemplo, exibi-los em partes. A Figura a seguir exemplifica como a imagem de personagem que só aparece pela metade na tela (já que ele está caminhando para a esquerda.
+
+![Exemplos de Imagens fora do plano cartesiano](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/fig2-plano-catersizano.svg)
+
+Figura 2 - Exemplo de Figura fora do plano cartesiano do Canvas
 
 
 ### 1.4 - Aspectos estruturais do Canvas
@@ -37,5 +45,10 @@ Do lado do javascript, onde usaremos a API, devemos "pegar" esse elemento e guar
 
 A Figura a seguir demonstra como a comunicação entre a tag e a API é feita.
 
+![Arquitetura de um projeto com Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/fig3-arquitetura-canvas.svg)
+
+Figura 3 - Arquitetura de um projeto como Canvas
 
 ### 1.5 - Resumo do Capítulo
+
+Neste capítulo vimos brevemente o conceito de aplicações multimídias, um pouco da história dessas aplicações na web, antes da chegada do Canvas e aspectos importantes para iniciantes no canvas, como o plano cartesiano e a arquitetura do projeto. No próximo capítulo iniciaremos os nossos estudos com o Canvas! 
