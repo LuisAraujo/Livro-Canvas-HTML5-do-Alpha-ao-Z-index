@@ -1,16 +1,34 @@
-# Curso Canvas HTML5 Completão
+# Livro Canvas HTML: do Alpha ao Z-Index
 
-> Curso completo sobre API Canvas do HTML5. Nesse curso você irá aprende do básico ao avançado
-sobre esse novo e rico elemento do HTML. Aprenda a criar efeitos em imagens, animações, games e muito mais.
+![capa do livro](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/capa.png?raw=true)
 
-> Este curso é baseado no Livro HTML5 Canvas de Steve Fulton e Jeff, e adaptado para Módulos com aulas e 
-projetos utilizando conhecimentos aprendidos em cada bloco.
+> By Luis Araujo (2018)
 
-Link [patrocinado] do livro HTML5 Canvas: http://compre.vc/v2/206e17fc4c7
+> Este livro tem com objetivo apresentar as principais aplicações do Canvas HTML5, desde os conceitos básicos até aplicações mais complexas como a criação de jogos. Este material nasce da necessidade de sintetizar informações sobre o Canvas e e compartilhar minha experiência na criação de diversas aplicações multimídia. Costumo dizer que dá para fazer o mundo com o canvas e espero que, ao término do material, você também chegue a esta conclusão. 
 
-## Módulo I - Textos e Figuras [Em desenvolvimento]
 
-Aulas:
+
+
+- Este material é disponibilizado aqui como rascunho para livre leitura, não podendo ser impresso ou comercializado. 
+
+- O material está em desenvolvimento, assim qualquer dúvida ou sugestão pode ser enviada para luisaraujo.ifba (at) gmail.com.
+
+
+
+## Capítulo I - Introdução
+
+1.1 - Aplicações Multimídias na Web
+
+1.2 - A chegada do Canvas
+
+1.3 - Plano Cartesiano do Canvas
+
+1.4 - Aspectos estruturais do Canvas
+
+1.5 - Resumo do Capítulo
+
+
+## Capítulo II - Textos e Figuras [Em desenvolvimento]
 
 
 **1 - Introdução** [ok]
@@ -62,7 +80,7 @@ Aulas:
 
 >Projeto 02: Criar uma aplicação similar ao Paint
 
-## Módulo II - Editando Imagens [Em desenvolvimento]
+## Capítulo III - Editando Imagens [Em desenvolvimento]
 
 **1- Imagem**
 
@@ -88,7 +106,7 @@ Aulas:
 
 >Projeto 03: Criar um editor de efeitos para imagens
 
-## Módulo III - Animaçao [Em desenvolvimento]
+## Capítulo IV - Animaçao [Em desenvolvimento]
 
 **1 - Animando Textos** [Em desenvolvimento]
 
@@ -131,7 +149,7 @@ Aulas:
 
 >Projeto 04: Criar uma animação
  
-## Módulo IV- Video e Canvas [Em desenvolvimento]
+## Módulo V- Video e Canvas [Em desenvolvimento]
 
 **1 - Introdução**
 
@@ -157,17 +175,43 @@ Aplicando Chromakey
 
 > Projeto 05: Criando um player
 
-## Módulo V- Trabalhando com Audios [Em desenvolvimento]
+## Capítulo VI - Criando Visualizadores [Em desenvolvimento]
 
-**1 - Introdução**
+**1 - Gráficos de Pontos**
 
-Controlando Áudio através do Canvas
+1.1 - Criando os Eixos
 
-Criando um teclado virtual
+1.2 - Criando os pontos
 
-> Projeto 06: Criando um editor de partitura simples
+1.3 - Obtendo dados externos
 
-## Módulo VI - Criando Jogos [Em desenvolvimento]
+
+**2 - Gráficos de Linha**
+
+2.2 - Criando as linhas
+
+2.3 - Obtendo dados externos
+
+2.3 - Mesclando pontos e linhas
+
+
+**3 - Gráficos de Barra**
+
+3.2 - Criando as Barras e Legendas
+
+3.3 - Obtendo dados externos
+
+**4 - Gráficos de Pizza**
+
+4.1 - Criando o Gráfico
+
+4.2 - Adicionado Legendas no Gráfico
+
+4.3 - Obtendo dados externos
+
+
+
+## Capítulo VII - Criando Jogos [Em desenvolvimento]
 
 **1 - Colisões** 
 
