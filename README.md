@@ -1,4 +1,4 @@
-# Curso Canvas HTML5
+# Curso Canvas HTML5 Completão
 
 > Curso completo sobre API Canvas do HTML5. Nesse curso você irá aprende do básico ao avançado
 sobre esse novo e rico elemento do HTML. Aprenda a criar efeitos em imagens, animações, games e muito mais.
@@ -141,13 +141,18 @@ Criando preload
 
 Usando imagem da Camera
 
-Adicionando funções de play, pause, repeat
-
 **2 - Efeitos**
 
 Aplicando Efeito em Canvas
 
 Aplicando Chromakey 
+
+
+**3 - Interação entre input e canvas**
+
+3.1 - Usando o Teclado
+
+3.2 - Adicionando funções de play, pause, repeat
 
 
 > Projeto 05: Criando um player
@@ -156,9 +161,11 @@ Aplicando Chromakey
 
 **1 - Introdução**
 
+Controlando Áudio através do Canvas
 
+Criando um teclado virtual
 
-
+> Projeto 06: Criando um editor de partitura simples
 
 ## Módulo VI - Criando Jogos [Em desenvolvimento]
 
@@ -176,12 +183,6 @@ Aplicando Chromakey
 
 **3 - Usando GUI**
 
-
-**4 - Interação entre input e canvas**
-
-4.1 - Usando o mouse
-
-4.2 - Usando o Teclado
 
 **5 - Usando Física**
 
