@@ -181,9 +181,83 @@ window.onload = startApp;
 
 ### 2.1 - Adicionando Texto no Canvas
 
+Adicionar um texto no canvas é uma ótima forma de inicio. Adicionar o texto é simples, basta usarmos as funções fillText ou strokeText, a primeira desenha o preenchimento do texto e a segunda as bordas. A função abaixo pode ser colocada no **app,js** e devemos chamá-la na função StartApp.
+
+```javascript
+adicionandoText = function(contexto){
+	
+	contexto.fillText("CANVAS HTML5", 100, 100);
+	contexto.strokeText("Do Alph ao Z-Index", 100, 130);
+}
+```
+
+Nestes caso, as letra estão muito pequenas, e isso ainda não é perceptível. Podemos então alterar o tamanho da letra. Isso, assim como outras configurações de fonte não são feitas nas funções, o canvas funciona como um quadro, precisamos, antes de pintar escolher o nosso pincel, nossa tinta e etc. No caso das fontes, modificamos no contexto a informação sobre o tamanho e só após isso desenhamos na tela, vejamos: 
+
+```javascript
+adicionandoText = function(contexto){
+	//nova linha
+	contexto.font = "50px arial";
+
+	contexto.fillText("CANVAS HTML5", 100, 100);
+	contexto.strokeText("Do Alph ao Z-Index", 100, 130);
+}
+```
+Como podemos observar, a função responsável por isso é a font e além do tamanho em pixel devemos informar qual a fonte que queremos utilizar, neste caso a arial. Uma observação importante é que todas as propriedades de fonte que utilizaremos segue o padrão CSS. 
 
 ### 2.2 - Posicionando Texto
 
+Existem duas formar de posicionar o texto no canvas: AlingText e TextBaseLine, a primeira é mais simples, pois segue uma lógica comum de editores de textos. As propriedades são: *left*, posiciona o texto à esquerda; *right*, posiciona o texto à direita; *center*, centraliza o texto. As propriedades *end* e *start* informam qual a posição final e inicial do texto, respectivamente.
+
+```javascript
+contexto.textAlign = "start";
+contexto.fillText("CANVAS HTML5 Start", 200, 160);
+
+contexto.textAlign = "end";
+contexto.fillText("CANVAS HTML5 End", 200, 180);
+
+contexto.textAlign = "left";
+contexto.fillText("CANVAS HTML5 Left", 200, 100);
+
+contexto.textAlign ="right";
+contexto.fillText("CANVAS HTML5 Right", 200, 120);
+
+contexto.textAlign ="center";
+contexto.fillText("CANVAS HTML5 Center", 200, 140);
+```
+
+Como já foi visto, ao desenhar uma fonte precisamos informar o x e o y, ou seja, a posição que a fonte será desenhada. Diferente dos retângulos apresentados no capítulo 1, a origem da fonte se encontra no canto inferior direito, com pode ser observado a seguir:
+
+[Figura]
+
+TextBaseLine é uma linha base que o canvas usa para desenhar o texto. Existem diversos tipos de linhas.
+A função responsável por isso é a textBaseLine e a propriedade *alphabetic* é a padrão. A propriedade *top* cria faz o texto se basear em uma linha acima do texto, mas se encostrar sua face. A *hanging* é similar ao top, se diferenciando pelo fato de encostrar a sua face na linha. *middle* faz como que o texto se baseie em uma linha central, *ideographic* é utilizado para escrita ideográfica como Japonês e Chinês. Já o bottom escreve sobre a linha, com uma margem de afastamento.
+
+[Figura]
+
+
+Vamos testar!
+
+
+```javascript
+contexto.font = "15px arial";
+contexto.textBaseline  = "alphabetic";
+contexto.fillText("CANVAS HTML5", 0, 100);
+
+contexto.textBaseline  = "top";
+contexto.fillText("CANVAS HTML5", 120, 100);
+
+contexto.textBaseline  = "hanging";
+contexto.fillText("CANVAS HTML5", 240, 100);
+
+contexto.textBaseline  = "middle";
+contexto.fillText("CANVAS HTML5", 360, 100);
+
+	contexto.textBaseline  = "ideographic";
+contexto.fillText("CANVAS HTML", 480, 100);
+
+contexto.textBaseline  = "bottom";
+contexto.fillText("CANVAS HTML5", 600, 100);
+```
 
 ### 2.3 - Cor Texto no Canvas
 
