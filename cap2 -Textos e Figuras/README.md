@@ -2,6 +2,7 @@
 
 Neste capítulo, falaremos sobre como adicionar o canvas no HTML, como ligar o HTMl como o javascript e como criar textos e figuras no canvas. 
  
+## Introdução
 
 ### 1.1 - Adicionando o elemento Canvas na sua página
 
@@ -99,6 +100,7 @@ Se você já criou um site ou já viu o código de um site, deve está se pergun
 </body>
 </html>
 ```
+
 Ao testar, um alerto como a mensagem null aparecerá na tela. Mas como os sites fazem neste caso? Existem técnicas que nos permite executar um código após a renderização da página, neste caso o nosso **app.js** ficaria assim:
 
 ```javascript
@@ -174,3 +176,46 @@ testeSuporte = function(canvas){
 //inicar a aplicação
 window.onload = startApp;
 ```
+
+## Trabanhado como Texto
+
+### 2.1 - Adicionando Texto no Canvas
+
+
+### 2.2 - Posicionando Texto
+
+
+### 2.3 - Cor Texto no Canvas
+
+
+### 2.4 - Modificando o Alfa do Texto
+
+
+### 2.5 - fillText e stronkText
+
+
+### 2.6 - Tamanho, fonte, peso e estilos básicos
+
+
+### 2.7 - Adicionando Sobra
+
+
+### 2.8 - Usando gradientes
+
+
+### 2.9 - Usando imagem como textura
+
+### 2.10 - Projeto: seletor de estilo
+
+## 3 - Desenhando
+
+### 3.1 - Desenhando Figuras no Canvas
+
+### 3.2 - Adicionando estilos às Figuras no Canvas
+
+### 3.3 - Desenhando com o Mouse no Canvas
+
+### 3.4 - Limpar o Canvas
+
+
+### 3.5 - Projeto: criando um paint
