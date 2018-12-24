@@ -1,6 +1,7 @@
 # Capítulo II - Textos e Figuras
 
-Neste capítulo, falaremos sobre 
+Neste capítulo, falaremos sobre como adicionar o canvas no HTML, como ligar o HTMl como o javascript e como criar textos e figuras no canvas. 
+ 
 
 ### 1.1 - Adicionando o elemento Canvas na sua página
 
@@ -10,11 +11,11 @@ projeto.html
 
 ```html
 <html>
-	<body>
-		<!-- criando um canvas 600 x 600 -->
-		<canvas height="600" width="600">
-		</canvas>
-	</body>
+<body>
+	<!-- criando um canvas 600 x 600 -->
+	<canvas height="600" width="600">
+	</canvas>
+</body>
 </html>
 ```
 
@@ -22,11 +23,11 @@ Se você abriu o seu arquivo **projeto.html** no navegador, certamente não viu 
 
 ```html
 <html>
-	<body>
-		<!-- criando um canvas 600 x 600 com bordas -->
-		<canvas height="600" width="600" style="border: 1px solid #000">
-		</canvas>
-	</body>
+<body>
+	<!-- criando um canvas 600 x 600 com bordas -->
+	<canvas height="600" width="600" style="border: 1px solid #000">
+	</canvas>
+</body>
 </html>
 ```
 
@@ -41,14 +42,14 @@ alert("javascript ok!");
 Calma, não execute ainda! Precisamos, antes, criar o link entre o html e o javascript e isso é feito no html, pois é ele que será aberto no navegador. Modifique o arquivo projeto.html para:
 
 ```html
-	<html>
-		<body>
-			<canvas height="600" width="600" style="border: 1px solid #000">
-			</canvas>
-			<!-- nova linha -->
-			<script src="app.js"></script>
-		</body>
-	</html>
+<html>
+<body>
+	<canvas height="600" width="600" style="border: 1px solid #000">
+	</canvas>
+	<!-- nova linha -->
+	<script src="app.js"></script>
+</body>
+</html>
 ```
 
 Note que adicionamos apenas a tag script e colocamos o endereço do nosso arquivo javascript. Como ele está na mesma pasta, basta colocar o nome dele. Pronto, agora pode executar, uma mensagem como esta deverá aparecer na sua tela:
@@ -69,14 +70,14 @@ alert(canvas);
 note que estamos pegando o canvas pelo id "meu_canvas", mas não atualizando o html para colocar esse id, se não fizermos isso, o nosso getElementById retornará nulo (null). Então vamos lá no **projeto.html**:
 
 ```html
-	<html>
-		<body>
-			<canvas id="meu_canvas" height="600" width="600" style="border: 1px solid #000">
-			</canvas>
-			<!-- nova linha -->
-			<script src="app.js"></script>
-		</body>
-	</html>
+<html>
+<body>
+	<canvas id="meu_canvas" height="600" width="600" style="border: 1px solid #000">
+	</canvas>
+	<!-- nova linha -->
+	<script src="app.js"></script>
+</body>
+</html>
 ```
 
 Após executar, uma mensagem como esta deve aparecer:
@@ -87,15 +88,15 @@ Se você já criou um site ou já viu o código de um site, deve está se pergun
 
 ```html
 <html>
-	<head>
-		<!-- ERRO: o DOM ainda não foi renderizado, então será impossível pegar o canvas-->
-		<script src="app.js"></script>
-	</head>
-	<body>
-		<!-- criando um canvas 600 x 600 com bordas -->
-		<canvas id="canvas" height="600" width="600" style="border: 1px solid #000">
-		</canvas>
-	</body>
+<head>
+	<!-- ERRO: o DOM ainda não foi renderizado, então será impossível pegar o canvas-->
+	<script src="app.js"></script>
+</head>
+<body>
+	<!-- criando um canvas 600 x 600 com bordas -->
+	<canvas id="canvas" height="600" width="600" style="border: 1px solid #000">
+	</canvas>
+</body>
 </html>
 ```
 Ao testar, um alerto como a mensagem null aparecerá na tela. Mas como os sites fazem neste caso? Existem técnicas que nos permite executar um código após a renderização da página, neste caso o nosso **app.js** ficaria assim:
@@ -105,7 +106,6 @@ window.onload =  function() {
 	//capturando o canvas do DOM
 	canvas = document.getElementById("canvas");
 	alert(canvas);
-
 };
 ```
 Colocamos o código dentro da função que será chamada quando a página estiver totalmente carregada! 
