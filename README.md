@@ -1,19 +1,15 @@
-# Livro Canvas HTML: do Alpha ao Z-Index
+# Canvas HTML5: do Alpha ao Z-Index
 
-![capa do livro](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/capa.png?raw=true)
+![capa do livro](https://raw.githubusercontent.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/master/capa.png)
 
 > By Luis Araujo (2018)
 
-> Este livro tem com objetivo apresentar as principais aplicações do Canvas HTML5, desde os conceitos básicos até aplicações mais complexas como a criação de jogos. Este material nasce da necessidade de sintetizar informações sobre o Canvas e e compartilhar minha experiência na criação de diversas aplicações multimídia. Costumo dizer que dá para fazer o mundo com o canvas e espero que, ao término do material, você também chegue a esta conclusão. 
+> Este livro tem com objetivo apresentar as principais aplicações do Canvas HTML5, desde os conceitos básicos até aplicações mais complexas como a criação de jogos. Este material nasce da necessidade de sintetizar informações sobre o Canvas e e compartilhar minha experiência na criação de diversas aplicações multimídia. Costumo dizer que dá para fazer o mundo com o canvas e espero que, ao término do livro, você também chegue a esta conclusão também. 
 
 
+- Este este livro, assim como seu material adicional, são disponibilizados aqui como rascunho para livre leitura, não podendo ser impressos ou comercializados. 
 
-
-- Este material é disponibilizado aqui como rascunho para livre leitura, não podendo ser impresso ou comercializado. 
-
-- O material está em desenvolvimento, assim qualquer dúvida ou sugestão pode ser enviada para luisaraujo.ifba (at) gmail.com.
-
-
+- O livro está em desenvolvimento, assim qualquer dúvida ou sugestão pode ser enviada para luisaraujo.ifba (at) gmail.com.
 
 ## Capítulo I - Introdução
 
