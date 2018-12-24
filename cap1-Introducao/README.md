@@ -2,6 +2,8 @@
 
 Neste capítulo, falaremos sobre alguns aspectos gerais de aplicações multimídias e do canvas. Se você já está familiarizado como o assunto e já utilizou o canvas de forma introdutório, pode seguir para o Capítulo II - Texto e Figuras.
 
+ [Próximo Capítulo >](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras)
+
 ### 1.1 - Aplicações Multimídias na Web
 
 Algo que nos vem a mente quando ouvimos a palavra multimídia é: mais o que é isso realmente? Embora tenhamos contato com este termo, por vezes, defini-la se torna uma tarefa árdua. Quando falamos de multimídia estamos falando da mescla de várias mídias como texto, imagens, sons, vídeos e outros. Uma aplicação multimídia deve utilizar essas mídias de forma integrada e não sobreposta. Ou seja, elas devem "conversar" entre si para produzir uma aplicação. 

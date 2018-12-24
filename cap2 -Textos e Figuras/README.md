@@ -1,7 +1,9 @@
 # Capítulo II - Textos e Figuras
 
 Neste capítulo, falaremos sobre como adicionar o canvas no HTML, como ligar o HTMl como o javascript e como criar textos e figuras no canvas. 
- 
+
+[< Capítulo Anterior](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap1-Introducao)  |  [Próximo Capítulo >](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap3-Editando%20Imagens)
+
 ## Introdução
 
 ### 1.1 - Adicionando o elemento Canvas na sua página
@@ -209,20 +211,24 @@ Como podemos observar, a função responsável por isso é a font e além do tam
 Existem duas formar de posicionar o texto no canvas: AlingText e TextBaseLine, a primeira é mais simples, pois segue uma lógica comum de editores de textos. As propriedades são: *left*, posiciona o texto à esquerda; *right*, posiciona o texto à direita; *center*, centraliza o texto. As propriedades *end* e *start* informam qual a posição final e inicial do texto, respectivamente.
 
 ```javascript
-contexto.textAlign = "start";
-contexto.fillText("CANVAS HTML5 Start", 200, 160);
-
-contexto.textAlign = "end";
-contexto.fillText("CANVAS HTML5 End", 200, 180);
-
-contexto.textAlign = "left";
-contexto.fillText("CANVAS HTML5 Left", 200, 100);
-
-contexto.textAlign ="right";
-contexto.fillText("CANVAS HTML5 Right", 200, 120);
-
-contexto.textAlign ="center";
-contexto.fillText("CANVAS HTML5 Center", 200, 140);
+adicionandoText = function(contexto){
+	
+	contexto.font = "15px arial";
+	contexto.textAlign = "start";
+	contexto.fillText("CANVAS HTML5 Start", 200, 160);
+	
+	contexto.textAlign = "end";
+	contexto.fillText("CANVAS HTML5 End", 200, 180);
+	
+	contexto.textAlign = "left";
+	contexto.fillText("CANVAS HTML5 Left", 200, 100);
+	
+	contexto.textAlign ="right";
+	contexto.fillText("CANVAS HTML5 Right", 200, 120);
+	
+	contexto.textAlign ="center";
+	contexto.fillText("CANVAS HTML5 Center", 200, 140);
+}
 ```
 
 Como já foi visto, ao desenhar uma fonte precisamos informar o x e o y, ou seja, a posição que a fonte será desenhada. Diferente dos retângulos apresentados no capítulo 1, a origem da fonte se encontra no canto inferior direito, com pode ser observado a seguir:
@@ -239,24 +245,27 @@ Vamos testar!
 
 
 ```javascript
-contexto.font = "15px arial";
-contexto.textBaseline  = "alphabetic";
-contexto.fillText("CANVAS HTML5", 0, 100);
-
-contexto.textBaseline  = "top";
-contexto.fillText("CANVAS HTML5", 120, 100);
-
-contexto.textBaseline  = "hanging";
-contexto.fillText("CANVAS HTML5", 240, 100);
-
-contexto.textBaseline  = "middle";
-contexto.fillText("CANVAS HTML5", 360, 100);
-
+adicionandoText = function(contexto){
+	
+	contexto.font = "15px arial";
+	contexto.textBaseline  = "alphabetic";
+	contexto.fillText("CANVAS HTML5", 0, 100);
+	
+	contexto.textBaseline  = "top";
+	contexto.fillText("CANVAS HTML5", 120, 100);
+	
+	contexto.textBaseline  = "hanging";
+	contexto.fillText("CANVAS HTML5", 240, 100);
+	
+	contexto.textBaseline  = "middle";
+	contexto.fillText("CANVAS HTML5", 360, 100);
+	
 	contexto.textBaseline  = "ideographic";
-contexto.fillText("CANVAS HTML", 480, 100);
-
-contexto.textBaseline  = "bottom";
-contexto.fillText("CANVAS HTML5", 600, 100);
+	contexto.fillText("CANVAS HTML", 480, 100);
+	
+	contexto.textBaseline  = "bottom";
+	contexto.fillText("CANVAS HTML5", 600, 100);
+}
 ```
 
 ### 2.3 - Cor Texto no Canvas
