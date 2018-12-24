@@ -1,4 +1,4 @@
-#Capítulo I - Introdução
+# Capítulo I - Introdução
 
 Neste capítulo, falaremos sobre alguns aspectos gerais de aplicações multimídias e do canvas. Se você já está familiarizado como o assunto e já utilizou o canvas de forma introdutório, pode seguir para o Capítulo II - Texto e Figuras.
 
@@ -38,4 +38,4 @@ Do lado do javascript, onde usaremos a API, devemos "pegar" esse elemento e guar
 A Figura a seguir demonstra como a comunicação entre a tag e a API é feita.
 
 
-1.5 - Resumo do Capítulo
+### 1.5 - Resumo do Capítulo

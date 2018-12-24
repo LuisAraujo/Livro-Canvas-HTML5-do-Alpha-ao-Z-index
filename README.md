@@ -11,15 +11,15 @@
 
 - O livro está em desenvolvimento, assim qualquer dúvida ou sugestão pode ser enviada para luisaraujo.ifba (at) gmail.com.
 
-## Capítulo I - Introdução
+## [Capítulo I - Introdução](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md)
 
-1.1 - Aplicações Multimídias na Web
+1.1 - [Aplicações Multimídias na Web](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md#11---aplica%C3%A7%C3%B5es-multim%C3%ADdias-na-web)
 
-1.2 - A chegada do Canvas
+1.2 - [A chegada do Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md#12---a-chegada-do-canvas)
 
-1.3 - Plano Cartesiano do Canvas
+1.3 - [Plano Cartesiano do Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md#13---plano-cartesiano-do-canvas)
 
-1.4 - Aspectos estruturais do Canvas
+1.4 - [Aspectos estruturais do Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md#14---aspectos-estruturais-do-canvas)
 
 1.5 - Resumo do Capítulo
 
