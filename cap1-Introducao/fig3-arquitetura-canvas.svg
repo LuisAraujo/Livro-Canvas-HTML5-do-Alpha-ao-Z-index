@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 405.8 294.8" style="enable-background:new 0 0 405.8 294.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F2F2F2;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#13007C;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:8.3127px;}
+	.st4{fill:#E5E5E5;}
+	.st5{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st6{font-size:10.08px;}
+	.st7{font-size:7.7552px;}
+	.st8{fill:#008837;}
+	.st9{fill:#C2000B;}
+	.st10{fill:#FF4000;}
+	.st11{fill:#FFFFFF;}
+	.st12{font-size:12px;}
+	.st13{fill:#FFFF00;}
+	.st14{font-size:13.492px;}
+	.st15{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#C2000B;stroke-miterlimit:10;}
+	.st17{fill:#E5E5E5;stroke:#000000;stroke-miterlimit:10;}
+	.st18{font-size:4.5474px;}
+	.st19{fill:none;stroke:#808080;stroke-miterlimit:10;}
+	.st20{font-size:5.4633px;}
+	.st21{fill:none;}
+</style>
+<rect x="18" y="22" class="st0" width="151.3" height="102"/>
+<text transform="matrix(1 0 0 1 25.4693 34.9414)"><tspan x="0" y="0" class="st1 st2 st3">&lt;html&gt;</tspan><tspan x="0" y="10" class="st1 st2 st3">   &lt;head&gt;</tspan><tspan x="0" y="20" class="st1 st2 st3">   &lt;/head&gt;</tspan><tspan x="0" y="29.9" class="st1 st2 st3">   &lt;body&gt;</tspan><tspan x="0" y="39.9" class="st1 st2 st3">      &lt;canvas id=”canvas” height=”600”</tspan><tspan x="0" y="49.9" class="st1 st2 st3">weight=“600”&gt;&lt;/canvas&gt;</tspan><tspan x="0" y="59.9" class="st1 st2 st3">  &lt;script src=”app.js”&gt;&lt;/script&gt;</tspan><tspan x="0" y="69.8" class="st1 st2 st3">  &lt;/body&gt;</tspan><tspan x="0" y="79.8" class="st1 st2 st3">&lt;/html&gt;</tspan></text>
+<g>
+	<rect x="225.5" y="36.9" class="st4" width="170" height="8.2"/>
+	<rect x="225.5" y="56.1" class="st4" width="170" height="8.2"/>
+	<rect x="226" y="73.9" class="st4" width="170" height="8.2"/>
+	<rect x="226" y="92.9" class="st4" width="170" height="8.2"/>
+	<rect x="225.5" y="111.7" class="st4" width="170" height="8.2"/>
+	<rect x="226" y="17.3" class="st4" width="170" height="10.7"/>
+</g>
+<rect x="226.5" y="17.3" class="st5" width="169" height="106.7"/>
+<text transform="matrix(1 0 0 1 287.2995 149.5558)" class="st2 st6">Navegador</text>
+<text transform="matrix(1 0 0 1 240.9661 42.5304)"><tspan x="0" y="0" class="st2 st7">canvas = document.getElementById(</tspan><tspan x="119" y="0" class="st8 st2 st7">”canvas”</tspan><tspan x="146.5" y="0" class="st2 st7">)</tspan></text>
+<text transform="matrix(1 0 0 1 240.9662 52.5304)"><tspan x="0" y="0" class="st2 st7">contexto = canvas.getContext(</tspan><tspan x="99.1" y="0" class="st8 st2 st7">”2d”</tspan><tspan x="113" y="0" class="st2 st7">);</tspan></text>
+<text transform="matrix(1 0 0 1 239.4696 70.5304)"><tspan x="0" y="0" class="st2 st7">contexto.rect(</tspan><tspan x="45.2" y="0" class="st9 st2 st7">20</tspan><tspan x="53.1" y="0" class="st2 st7">, </tspan><tspan x="56.4" y="0" class="st9 st2 st7">20</tspan><tspan x="64.3" y="0" class="st2 st7">, </tspan><tspan x="67.6" y="0" class="st9 st2 st7">150</tspan><tspan x="79.5" y="0" class="st2 st7">, </tspan><tspan x="82.8" y="0" class="st9 st2 st7">100</tspan><tspan x="94.7" y="0" class="st2 st7">);</tspan><tspan x="0" y="9.3" class="st2 st7">contexto.strokeStyle = </tspan><tspan x="74.1" y="9.3" class="st8 st2 st7">&quot;red&quot;</tspan><tspan x="90.2" y="9.3" class="st2 st7">;</tspan><tspan x="0" y="18.6" class="st2 st7">contexto.stroke();</tspan></text>
+<g>
+	<rect x="120.3" y="10.1" class="st10" width="37.2" height="21.7"/>
+	<text transform="matrix(1 0 0 1 124.6388 25.4735)" class="st11 st2 st12">HTML</text>
+</g>
+<g>
+	<rect x="365.3" y="6.5" class="st13" width="21.7" height="21.7"/>
+	<text transform="matrix(1 0 0 1 369.4912 21.9688)" class="st2 st14">JS</text>
+</g>
+<g>
+	<rect x="86.2" y="153.3" class="st15" width="247.3" height="134.7"/>
+	<rect x="86.2" y="153.3" class="st15" width="48.7" height="7.8"/>
+	<rect x="150.2" y="184.5" class="st15" width="119.3" height="72.7"/>
+	<rect x="161.4" y="202.9" class="st16" width="24.5" height="14.7"/>
+	<rect x="86.2" y="161" class="st17" width="247.3" height="14.6"/>
+	<path class="st15" d="M288.4,172.4H114.6c-2.2,0-4.1-1.8-4.1-4.1v0c0-2.2,1.8-4.1,4.1-4.1h173.8c2.2,0,4.1,1.8,4.1,4.1v0
+		C292.5,170.6,290.7,172.4,288.4,172.4z"/>
+	<text transform="matrix(1 0 0 1 114.9665 170.1407)" class="st2 st18">localhost/aplicacao_canvas</text>
+	<g>
+		<polyline class="st5" points="92.7,171.3 89.9,168.6 92.7,165.5 		"/>
+		<line class="st5" x1="92.1" y1="168.4" x2="95.5" y2="168.4"/>
+	</g>
+	<g>
+		<polyline class="st19" points="100.7,171.3 103.3,168.6 100.7,165.5 		"/>
+		<line class="st19" x1="101.2" y1="168.4" x2="98" y2="168.4"/>
+	</g>
+	<text transform="matrix(1 0 0 1 139.2774 159.6361)" class="st2 st7">+</text>
+	<text transform="matrix(1 0 0 1 90.6553 158.6361)" class="st2 st20">aplicac...</text>
+</g>
+<polygon class="st21" points="344,144 286,144 286,144 344,144 "/>
+<text transform="matrix(1 0 0 1 228.4665 25.9816)"><tspan x="0" y="0" class="st2 st7">1</tspan><tspan x="0" y="9.3" class="st2 st7">2</tspan><tspan x="0" y="18.6" class="st2 st7">3</tspan><tspan x="0" y="27.9" class="st2 st7">4</tspan><tspan x="0" y="37.2" class="st2 st7">5</tspan><tspan x="0" y="46.5" class="st2 st7">6</tspan><tspan x="0" y="55.8" class="st2 st7">7</tspan><tspan x="0" y="65.1" class="st2 st7">8</tspan><tspan x="0" y="74.4" class="st2 st7">9</tspan><tspan x="0" y="83.8" class="st2 st7">10</tspan><tspan x="0" y="93.1" class="st2 st7">11</tspan></text>
+<g>
+	<polygon class="st15" points="172,73.4 166,67.8 172,62.3 172.1,65.2 234,65.3 234,70.3 172,70.3 	"/>
+	<polygon class="st15" points="229.1,34.9 235.1,40.5 229.1,46.1 229,43.2 167.1,43.1 167.1,38.1 229.1,38.1 	"/>
+	<polygon class="st15" points="172,91.7 166,86.1 172,80.5 172.1,83.4 234,83.5 234,88.6 172,88.6 	"/>
+	<polygon class="st15" points="172,107.1 166,101.5 172,95.9 172.1,98.8 234,98.9 234,104 172,104 	"/>
+</g>
+<polygon class="st15" points="189.5,141.1 201.5,148.9 213.9,141.7 207.7,141.7 207.7,119.9 195.9,119.9 196.1,141.2 "/>
+</svg>

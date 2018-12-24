@@ -9,7 +9,7 @@
 
 - Este este livro, assim como seu material adicional, são disponibilizados aqui como rascunho para livre leitura, não podendo ser impressos ou comercializados. 
 
-- O livro está em desenvolvimento, assim qualquer dúvida ou sugestão pode ser enviada para luisaraujo.ifba (at) gmail.com.
+- O livro está em desenvolvimento, assim qualquer dúvida ou sugestão pode ser enviada para luisaraujo.ifba@gmail.com ou, se tem familiaridade com o github, abra um [Issues](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/issues).
 
 ## [Capítulo I - Introdução](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md)
 

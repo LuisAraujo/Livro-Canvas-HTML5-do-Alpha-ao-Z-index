@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 405.8 294.8" style="enable-background:new 0 0 405.8 294.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#01A0C6;}
+	.st1{fill:#C2000B;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{font-family:'MyriadPro-Regular';}
+	.st4{font-size:6.0894px;}
+	.st5{font-size:5.2554px;}
+	.st6{font-size:4.405px;}
+</style>
+<rect x="321" y="86.5" class="st0" width="80" height="61.5"/>
+<rect x="28.8" y="174.5" class="st1" width="80" height="61.5"/>
+<rect x="42.6" y="27.9" class="st2" width="344.9" height="254.1"/>
+<circle cx="42.6" cy="27.9" r="2.3"/>
+<text transform="matrix(1 0 0 1 37.813 20.8657)" class="st3 st4">0, 0</text>
+<text transform="matrix(0.9884 0 0 1 294.5 86.5)" class="st3 st5">o = 100, 20</text>
+<text transform="matrix(1.3824 0 0 1 377.313 20.8657)" class="st3 st6">W =130</text>
+<g>
+	<polyline class="st2" points="401,150 401,156 321,156 321,150 	"/>
+	<text transform="matrix(0.9884 0 0 1 321 161.9386)" class="st3 st5">w = 35</text>
+</g>
+<polyline class="st2" points="384.5,81.3 384.5,78.1 321,78.1 321,81.3 "/>
+<text transform="matrix(0.9884 0 0 1 321 74.9386)" class="st3 st5">w = 30</text>
+<polyline class="st2" points="401,81.3 401,78.1 390.5,78.1 390.5,81.3 "/>
+<text transform="matrix(0.9884 0 0 1 390.5 74.9387)" class="st3 st5">w = 5</text>
+<text transform="matrix(0.9884 0 0 1 3 173.9063)" class="st3 st5">o = -5, 50</text>
+<g>
+	<polyline class="st2" points="108.4,167.9 108.4,164.7 44.9,164.7 44.9,167.9 	"/>
+	<text transform="matrix(0.9884 0 0 1 44.9048 161.5777)" class="st3 st5">w = 30</text>
+</g>
+<g>
+	<polyline class="st2" points="39.2,167.9 39.2,164.7 28.7,164.7 28.7,167.9 	"/>
+	<text transform="matrix(0.9884 0 0 1 28.7381 161.594)" class="st3 st5">w = 5</text>
+</g>
+<g>
+	<polyline class="st2" points="108.8,240 108.8,246 28.8,246 28.8,240 	"/>
+	<text transform="matrix(0.9884 0 0 1 28.75 251.9386)" class="st3 st5">w = 35</text>
+</g>
+</svg>
