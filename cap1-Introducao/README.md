@@ -24,7 +24,7 @@ O Canvas chegou ao mundo web através da nova versão da linguagem de marcação
 
 Diferentemente do que vimos durante anos, na escola. O plano cartesiano do Canvas tem sua origem (O) no canto superior esquerdo da tela. Avançando positivamente (0,1,2 ...) da esquerda para a direita no eixo x e de cima para baixo no eixo y.  Conforme podemos ver na figura abaixo:
 
-![Plano Cartesiano do Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/fig1-plano-catersizano.svg)
+![Plano Cartesiano do Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/fig1-plano-catersizano.png)
 
 Figura 1 - Plano cartesiano no Canvas
 
