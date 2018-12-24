@@ -39,7 +39,7 @@
 
 1.5 - Recuperando o *Context2d*
 
-1.6 - Estado do *Context2d*
+1.6 - Encapsulando
 
 
 **2 - Trabalhando com Textos** [ok]
