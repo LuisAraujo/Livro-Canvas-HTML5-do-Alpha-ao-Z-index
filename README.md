@@ -24,55 +24,55 @@
 1.5 - Resumo do Capítulo
 
 
-## Capítulo II - Textos e Figuras [Em desenvolvimento]
+## [Capítulo II - Textos e Figuras](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras) 
 
 
-**1 - Introdução** [ok]
+**1 - Introdução**  
  
-1.1 - Adicionando o elemento Canvas na sua página
+1.1 - [Adicionando o elemento Canvas na sua página](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#11---adicionando-o-elemento-canvas-na-sua-p%C3%A1gina)
 
-1.2 - Javascript e Canvas
+1.2 - [Javascript e Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#12---javascript-e-canvas)
 
-1.3 - Capturando o elemento do DOM
+1.3 - [Capturando o elemento do DOM](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#13---capturando-o-elemento-do-dom)
 
-1.4 - Testando Suporte do Browser
+1.4 - [Testando Suporte do Browser](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#14---testando-suporte-do-browser)
 
-1.5 - Recuperando o *Context2d*
+1.5 - [Recuperando o *Context2d*](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#15---recuperando-o-context2d)
 
-1.6 - Encapsulando
+1.6 - [Encapsulando](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#16---encapsulando)
 
 
-**2 - Trabalhando com Textos** [ok]
+**2 - Trabalhando com Textos** 
 
-2.1 - Adicionando Texto no Canvas
+2.1 - [Adicionando Texto no Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#21---adicionando-texto-no-canvas)
 
-2.2 - Posicionando Texto  
+2.2 - [Posicionando Texto](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#22---posicionando-texto)  
 
-2.3 - Cor Texto no Canvas
+2.3 - [Cor Texto no Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#23---cor-texto-no-canvas)
 
-2.4 - Modificando o Alfa do Texto  
+2.4 - [Modificando o Alfa do Texto](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#24---modificando-o-alfa-do-texto)  
 
 2.5 - *fillText* e *stronkText*
 
-2.6 - Tamanho, fonte, peso e estilos básicos
+2.6 - [Tamanho, fonte, peso e estilos básicos](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#26---tamanho-fonte-peso-e-estilos-b%C3%A1sicos)
 
-2.7 - Adicionando Sobra
+2.7 - [Adicionando Sobra](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#27---adicionando-sobra)
 
-2.8 - Usando gradientes
+2.8 - [Usando gradientes](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#28---usando-gradientes)
 
-2.9 - Usando imagem como textura
+2.9 - [Usando imagem como textura](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#29---usando-imagem-como-textura)
 
 >Projeto 01: Criar seletor de estilo para Texto
 
 **3 - Desenhando** [Em desenvolvimento]
  
-3.1 - Desenhando Figuras no Canvas
+3.1 - [Desenhando Figuras no Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#31---desenhando-figuras-no-canvas)
 
-3.2 - Adicionando estilos às Figuras no Canvas
+3.2 - [Adicionando estilos às Figuras](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#32---adicionando-estilos-%C3%A0s-figuras-no-canvas)
 
-3.3 - Desenhando com o Mouse no Canvas
+3.3 - [Desenhando com o Mouse no Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#33---desenhando-com-o-mouse-no-canvas)
 
-3.4 - Limpar o Canvas
+3.4 - [Limpar o Canvas](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap2%20-Textos%20e%20Figuras#34---limpar-o-canvas)
 
 >Projeto 02: Criar uma aplicação similar ao Paint
 

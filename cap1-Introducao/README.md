@@ -20,9 +20,10 @@ Com a chegada do elemento Canvas, na nova versão do HTML, o **Flash deve a sua 
 
 ### 1.2 - A chegada do Canvas
 
-O Canvas chegou ao mundo web através da nova versão da linguagem de marcação HTML5. Nela passou-se a ter novas tags e APIs que possibilitam o controle dessa tag. Assim, quando falamos de Canvas estamos falando de duas coisas: a tag <canvas\> e a API que permite controlá-la (desenhar). 
+O Canvas se popularizou no mundo web, através da nova versão da linguagem de marcação HTML5. Nela passou-se a ter novas tags e APIs que possibilitam o controle dessa tag. Assim, quando falamos de Canvas estamos falando de duas coisas: a tag <canvas\> e a API que permite controlá-la (desenhar). No entanto ela foi implementada inicialmente pela Apple, com suporte ao Opera. Após isso, alguns navegadores passaram a dar suporte à este elemento como o Monzila () e Internet Explore (9+)
 
-[mais sobre isso]
+Com a chegada do canvas, passou a ser possível criar conteúdo rico, na internet, de forma nativa. Hoje o canvas é largamente utilizado por desenvolvedores, mas diferentemente do Flash, que tinha como ferramenta principal o Adobe Flash, essas aplicações são desenvolvidas por diversos frameworks ou diretamente, usando a API do Canvas. Neste livro, iremos tarbalhar diretamente com a API, dando ao leitor conhecimento necessário para criar seu próprio framework, conforme sua necessidade. 
+
 
 ### 1.3 - Plano Cartesiano do Canvas
 

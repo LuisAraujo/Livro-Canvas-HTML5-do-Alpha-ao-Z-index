@@ -4,6 +4,7 @@ Neste capítulo, falaremos sobre como adicionar o canvas no HTML, como ligar o H
 
 [< Capítulo Anterior](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap1-Introducao)  |  [Próximo Capítulo >](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/tree/master/cap3-Editando%20Imagens)
 
+
 ## Introdução
 
 ### 1.1 - Adicionando o elemento Canvas na sua página
