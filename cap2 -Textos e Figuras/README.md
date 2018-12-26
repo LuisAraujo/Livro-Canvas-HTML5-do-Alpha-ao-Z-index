@@ -224,6 +224,13 @@ adicionandoTextocomFonte = function(contexto){
 ```
 Como podemos observar, o atributo responsável por isso é o *font* e além do tamanho em pixel devemos informar qual a fonte que queremos utilizar, neste caso a Arial. Uma observação importante é que todas as propriedades de fonte que utilizaremos segue o padrão CSS.
 
+Um elemento importante quando criamos aplicações com o canvas é saber quanto o texto ocupa de espaço em pixel, para isso podemos utilizar a função measureText, da qual podemos acessar a largura e altura, como a seguinte função:
+
+```javascript
+metrica = contexto.measureText("CANVAS HTML5");
+metrica.width;
+metrica.height;
+```
 
 ### 2.2 - Posicionando Texto
 
@@ -325,27 +332,24 @@ Já falamos de tamanho de fonte e fonte. Aqui vamos explorar mais funcionalidade
 
 ```javascript
 contexto.font = "50px arial, san serif, times new roman";
-}
 ```
 
 É possível ainda especificar o estilo da fonte, como *italic*, *normal* e *oblique*
 
 ```javascript
-contexto.font = "italic 50px arial ";
+contexto.font = "italic 50px arial";
 contexto.fillText("CANVAS HTML5", 200, 100);
-contexto.font = "normal 50px arial ";
+contexto.font = "normal 50px arial";
 contexto.fillText("CANVAS HTML5", 200, 200);
-contexto.font = "oblique 50px arial ";
-'	contexto.fillText("CANVAS HTML5", 200, 300);
-
-}
+contexto.font = "oblique 50px arial";
+contexto.fillText("CANVAS HTML5", 200, 300);
 ```
 
 A variante: *normal* ou *small-caps*:
 
 ```javascript
-	contexto.font = "normal 50px arial ";
-	contexto.font = "small-caps 50px arial ";
+	contexto.font = "normal 50px arial";
+	contexto.font = "small-caps 50px arial";
 }
 ```
 
@@ -408,6 +412,14 @@ adicionandoTextoComSombra = function(contexto){
 ```
 
 ### 2.7 - Usando gradientes
+
+Existem duas formas de criar gradiente para o texto: linear e radial. Para quem está acostumado como o uso de softwares de edição já sabe do que se trata, para quem não sabe, superficialmente, o primeiro se baseia em uma linha entre as cores e o seguinte segue um formado de circunferências, transitando pelas cores do gradiente.
+
+Para criar um gradiente linear é preciso usar a função *reateLinearGradient* e *addColorStop*.
+
+
+Para ciar o gradiente radial é preciso usar a função *createRadialGradient* e o 
+*addColorStop* também.
 
 
 ### 2.8 - Usando imagem como textura

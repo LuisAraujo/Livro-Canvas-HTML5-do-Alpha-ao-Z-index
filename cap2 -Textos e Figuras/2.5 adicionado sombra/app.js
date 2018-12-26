@@ -27,7 +27,7 @@ adicionandoTextoComSombra = function(contexto){
 	
 	contexto.shadowOffsetX = 10;
 	contexto.shadowOffsetY = 10;
-	contexto.shadowBlur = 5;
+	contexto.shadowBlur = 1;
 	contexto.shadowColor = "#000000";
 
 	contexto.fillStyle = "#ff0000";
