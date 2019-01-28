@@ -58,7 +58,7 @@ Calma, não execute ainda! Precisamos, antes, criar o link entre o HTML e o Java
 
 Note que adicionamos apenas a tag <script\> e colocamos o endereço do nosso arquivo Javascript no atributo src (source). Como ele está na mesma pasta, basta colocar o nome dele. Pronto, agora pode executar, uma mensagem como esta deverá aparecer na sua tela:
 
-Caso isso não ocorra, verifique no console o erro. É provável que você tenha errado o nome do arquivo ou deixo o Javascript em branco! Caso crie o Javascript em uma pasta específica, por exemplo, script é preciso direcionar o caminho "script/app.js", caso o seu HTML esjeta em uma subpasta do projeto e o Javascrip na raiz, o caminho deve ser "../app.js".
+Caso isso não ocorra, verifique no console o erro. É provável que você tenha errado o nome do arquivo ou deixo o Javascript em branco! Caso crie o Javascript em uma pasta específica, por exemplo, script é preciso direcionar o caminho "script/app.js", caso o seu HTML esteja em uma subpasta do projeto e o Javascrip na raiz, o caminho deve ser "../app.js".
 
 ### 1.3 - Capturando o elemento do DOM
 
@@ -195,13 +195,13 @@ No final dessa sessão, você deve ter uma pasta como o projeto.html e app.js, c
 
 [figura]
 
-Antes de avançarmos, recomendo que obtenham uma ferramenta de edição de testo para código, como o Sublime ou NotePad++, ou ainda um IDE, como o PhpStorm (versão estudante).
+Antes de avançarmos, recomendo que obtenham uma ferramenta de edição de texto para código, como o Sublime ou NotePad++, ou ainda um IDE, como o PhpStorm (versão estudante).
 
 ## Trabanhado como Texto
 
 ### 2.1 - Adicionando Texto no Canvas
 
-Adicionar um texto no Canvas é uma ótima forma de início. Adicionar o texto é simples, basta usarmos as funções *fillText* ou *strokeText*, a primeira desenha o preenchimento do texto e a segunda as bordas. A função abaixo pode ser colocada no **app,js** e devemos chamá-la na função *StartApp*.
+Adicionar um texto no Canvas é uma ótima forma de iníciar a manipulação do Canvas. Adicionar o texto é simples, basta usarmos as funções *fillText* ou *strokeText*, a primeira desenha o preenchimento do texto e a segunda as bordas. A função abaixo pode ser colocada no **app,js** e devemos chamá-la na função *StartApp*.
 
 ```javascript
 adicionandoTexto = function(contexto){
@@ -298,7 +298,7 @@ Você pode ver de forma dinâmica, a aplicação do TextBaseLine, neste outro [s
 
 ### 2.3 - Modificando a Cor Texto
 
-Para mudar a cor do texto, podemos fazer de duas formas, assim como existem duas formas de exibi-lo. Então, podemos modificar a cor do contorno (*strokeStyle*) ou do preenchimento (*fillStyle*). As cores seguem o padrão RGB hexadecimal (#RRGGBB ou #RGB), onde R é correspondente ao vermelho, o G ao verde e o B ao azul. Se não está familiarizado como o padrão RGB hexadecimal, alguns ferramentas como Gimp, Paint e sites online oferecem suporte para isso.
+Para mudar a cor do texto, podemos fazer de duas formas, assim como existem duas formas de exibi-lo. Então, podemos modificar a cor do contorno (*strokeStyle*) ou do preenchimento (*fillStyle*). As cores seguem o padrão RGB hexadecimal (#RRGGBB ou #RGB), onde R é correspondente ao vermelho(RED), o G ao verde(GREEN) e o B ao azul(BLUE). Se não estiver familiarizado como o padrão RGB hexadecimal, algumas ferramentas como Gimp, Paint e sites online oferecem suporte para isso.
 
 
 ```javascript
@@ -312,7 +312,7 @@ adicionandoTextocomCor = function(contexto){
 
 ### 2.4 - Modificando o Alfa do Texto
 
-Assim como a seleção da cor, o alfa deve ser modificado no Canvas. Para isso usamos o atributo globalAlpha. O globalAlpha varia entre o transparente absoluto 0.0 e o opaco 1.0. Então, podemos variar o uso da transparência, como podemos ver a seguir:
+Assim como a seleção da cor, o alfa (opacidade) deve ser modificado no Canvas. Para isso usamos o atributo globalAlpha. O globalAlpha varia entre o transparente absoluto 0.0 e o opaco 1.0. Então, podemos variar o uso da transparência, como podemos ver a seguir:
 
 ```javascript
 adicionandoTextoComAlfa = function(contexto){
@@ -327,7 +327,7 @@ adicionandoTextoComAlfa = function(contexto){
 
 ### 2.5 - Tamanho, fonte, peso e estilos básicos
 
-Já falamos de tamanho de fonte e fonte. Aqui vamos explorar mais funcionalidades como esta. Vimos que é possível definir uma fonte para o nosso texto, mas como as aplicações web dependem das fontes que o usuário tenha instalada em seu computador, não podemos ficar a deriva, esperando que o computador escolha uma outra fonte. Assim, é possível definir fontes alternativas assim:
+Já falamos de tamanho e tipode de fonte. Aqui exploraremos mais funcionalidades como esta. Vimos que é possível definir uma fonte para o nosso texto, mas como as aplicações web dependem das fontes que o usuário tenha instalada em seu computador, não podemos ficar a deriva, esperando que o computador escolha uma outra fonte. Assim, é possível definir fontes alternativas assim:
 
 
 ```javascript
@@ -391,9 +391,9 @@ contexto.fillText("CANVAS HTML5", 200, 100);
 }
 ```
 
-### 2.6 - Adicionando Sobra
+### 2.6 - Adicionando Sombra
 
-É possível adicionar sombra ao nosso texto, o processo é similar ao alfa. No entanto, não modificamos apenas um atributo e sim quatro. *shadowOffsetX*, *shadowOffsetY*, *shadowBlur* e *shadowColor*. O primeiro refere-se a posição x da sombra (o quanto ela vai se afastar do texto), o segundo refere-se a posição y, já o terceiro indica o quanto a sombra será difundida, o que afetará na sua definição, deixando-a mais ou menor esfumaçada. Por fim, o último indica a cor da sombra a ser aplicada.
+É possível adicionar sombra ao nosso texto, o processo é similar ao alfa. No entanto, não modificamos apenas um atributo e sim quatro. *shadowOffsetX*, *shadowOffsetY*, *shadowBlur* e *shadowColor*. O primeiro refere-se a posição x da sombra (o quanto ela vai se afastar do texto), o segundo refere-se a posição y, já o terceiro indica o quanto a sombra será difundida, o que afetará na sua definição, deixando-a mais ou menor esfumaçada(blur). Por fim, o último indica a cor da sombra a ser aplicada.
 
 ```javascript
 adicionandoTextoComSombra = function(contexto){
@@ -413,7 +413,7 @@ adicionandoTextoComSombra = function(contexto){
 
 ### 2.7 - Usando gradientes
 
-Existem duas formas de criar gradiente para o texto: linear e radial. Para quem está acostumado como o uso de softwares de edição já sabe do que se trata, para quem não sabe, superficialmente, o primeiro se baseia em uma linha entre as cores e o seguinte segue um formado de circunferências, transitando pelas cores do gradiente.
+Existem duas formas de criar gradiente para o texto: linear e radial. Para quem está acostumado como o uso de softwares de edição de imagens, já sabe do que se trata, para quem não sabe, superficialmente, o primeiro se baseia em uma linha entre as cores e o seguinte segue um formado de circunferências, transitando pelas cores do gradiente.
 
 Para criar um gradiente linear é preciso usar a função *reateLinearGradient* e *addColorStop*.
 
