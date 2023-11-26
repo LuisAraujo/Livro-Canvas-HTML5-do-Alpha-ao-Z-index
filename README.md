@@ -11,6 +11,8 @@
 
 - O livro está em desenvolvimento, assim qualquer dúvida ou sugestão pode ser enviada para luisaraujo.ifba@gmail.com ou, se tem familiaridade com o github, abra um [Issues](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/issues).
 
+- Contribuições são bem vindas, todos os colaboradores serão mencionados na versão final, sem atribuição de autoria. 
+
 ## [Capítulo I - Introdução](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md)
 
 1.1 - [Aplicações Multimídias na Web](https://github.com/LuisAraujo/Livro-Canvas-HTML5-do-Alpha-ao-Z-index/blob/master/cap1-Introducao/README.md#11---aplica%C3%A7%C3%B5es-multim%C3%ADdias-na-web)
