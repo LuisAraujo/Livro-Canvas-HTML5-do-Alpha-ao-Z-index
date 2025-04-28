@@ -417,7 +417,6 @@ Existem duas formas de criar gradiente para o texto: linear e radial. Para quem 
 
 Para criar um gradiente linear é preciso usar a função *reateLinearGradient* e *addColorStop*.
 
-
 Para ciar o gradiente radial é preciso usar a função *createRadialGradient* e o 
 *addColorStop* também.
 
@@ -425,16 +424,146 @@ Para ciar o gradiente radial é preciso usar a função *createRadialGradient* e
 ### 2.8 - Usando imagem como textura
 
 
-
 ## 3 - Desenhando
+
+
+Outro recurso interessante e muito utilizado é a criação de desenhos. No Canvas podemos desenhar linhas e figuras geométricas como arcores, retângulo e caminhos customizados. Vamos ver a seguir. 
 
 ### 3.1 - Desenhando Figuras no Canvas
 
-### 3.2 - Adicionando estilos às Figuras no Canvas
+Vamos aprender um pouco sobre como criar linhas, retângulos, circulos e formas personalizadas.
 
-### 3.3 - Desenhando com o Mouse no Canvas
+### 3.1.1 - Desenhando Linhas no Canvas
 
-### 3.4 - Limpar o Canvas
+Para desenhar linhas é preciso ter um ponto de partida (x, y ) e um ponto de chegada (x, y). Uma reta será desenhada ligando os dois pontos especificados. O desenho da linha é na verdade o desenho de uma reta em um caminho (Path), por isso iniciamos como beginPath e finalizamo com closePath, evitando que uma linha infuencie o estilo da outra. 
+
+Vejamos um exemplo com uma reta partindo da origem até o ponto 200, 100.  
+
+```javascript
+ctx.beginPath();
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.closePath();
+ctx.stroke();
+```
+
+Após a definição dos pontos usamos a função stroke que desenha a linha. Perceba que a cor impressa é o preto e a espessupara aparentemente de 1px. Nós podemos mudar essas propriedades. Vamos lá.
+
+Como estamos usando a função stoke, então vamos mudar o estilo do stroke com strokeStyle;
+
+```javascript
+ctx.beginPath();
+ctx.strokeStyle = "blue";
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.closePath();
+ctx.stroke();
+```
+
+Podemos mudar a espessura da linha com lineWidth, a borda com o lineCap (butt, squere, round) e se ela é tracejada com setLineDash (tanho do risco e do intervalo). Vamos ver alguns exemplos no mesmo código.
+
+```javascript
+ctx.beginPath();
+ctx.lineCap = "square";
+ctx.strokeStyle = "blue"
+ctx.lineWidth = 1;
+ctx.moveTo(10, 0);
+ctx.lineTo(10, 100);
+ctx.closePath();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.lineWidth = 1;
+ctx.lineCap = "bott";
+ctx.setLineDash([4, 2]);
+ctx.strokeStyle = "red";
+ctx.lineDashOffset = 4;
+ctx.moveTo(30, 0);
+ctx.lineTo(30, 100);
+ctx.closePath();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.lineWidth = 1;
+ctx.lineCap = "bott";
+ctx.setLineDash([]);
+ctx.strokeStyle = "#00ff00";
+ctx.moveTo(50, 0);
+ctx.lineTo(50, 100);
+ctx.closePath();
+ctx.stroke();
+```
+### 3.1.2 - Desenhando Caminhos no Canvas
+
+Desenhar caminho é similar a desenhar uma linha. A difereça é que adicionamos mais pontos com lineTo. No exemplo a seguir, desenhamos um triângulo. Além do stroke, podemos usar o fill, caso desejemos uma figura preenchida. Muda-se a cor do preenchimento como fillStyle. 
+
+```javascript
+ctx.fillStyle = "blue"
+ctx.beginPath();
+ctx.moveTo(50, 0);
+ctx.lineTo(100, 100);
+ctx.lineTo(0, 100);
+ctx.lineTo(50, 0);
+ctx.closePath();
+ctx.stroke();
+ctx.fill();
+```
+
+### 3.1.3 - Desenhando Retângulos no Canvas
+
+Para criar retângulos, podemos usar os comandos de caminho, como fizemos com a linha, porém já existe um comando especial para facilitar o trabalho, este comando é o Rect. Nele você precisa definir as posiçõesm, a largura e a altura.
+
+```javascript
+ctx.rect(0,0,100,100)
+```
+
+Assim como o caminho, podemos desenhar apenas o contorno, apenas o preenchimento ou os dois. Vejamos três exemplos:
+
+```javascript
+ctx.rect(0,0,100,100);
+ctx.stroke();
+
+ctx.rect(100,0,100,100);
+ctx.fill();
+
+ctx.rect(200,0,100,100);
+ctx.stroke();
+ctx.fill();
+```
+Neste caso apresentado, é ideal usar o beginPath, para que a formatação de um retângulo não influencie o outro.
+
+```javascript
+ctx.beginPath();
+ctx.fillStyle = "#000";
+ctx.rect(100,0,100,100);
+ctx.closePath();
+ctx.fill();
+ctx.beginPath();
+ctx.fillStyle = "#00f";
+ctx.rect(200,0,100,100);
+ctx.stroke();
+ctx.closePath();
+ctx.fill();
+```
+
+Existem mais simplificações para realizar um retângulo. A função fillRect e strokeRect une as funções anteriores.
+
+```javascript
+ctx.fillRect(0,0,100,100);
+
+ctx.strokeRect(0,0,100,100);
+```
+
+### 3.1.4 - Desenhando Arcos no Canvas
+
+### 3.2 - Desenhando com o Mouse no Canvas
+
+Vamos fazer uma pequena brincadeira com o que já aprendemos. Podemos criar uma aplicacao para desenhar com o mouse, faremos assim: existirá opcoes de linha de retângulo e de círculo. Quando o mouse clicar irá criar uma das três figuras, na posicao que ele está. 
+
+
+
+### 3.3 - Limpar o Canvas
+
 
 
 ## 4- Projetos
